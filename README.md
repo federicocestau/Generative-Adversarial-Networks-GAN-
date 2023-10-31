@@ -31,7 +31,7 @@ Discriminator model part:
 	
 3.	Once we reach the output layer, the discriminator decides whether the sample is real or fake (generated).
    
-In summary, the discriminator is no different from a standard neural network classification model.
+The discriminator is no different from a standard neural network classification model.
 
 To summarize: We want to train the generator G such that it will produce the results for the discriminator D so that D won’t be able to distinguish between z, vectors inputs from the Generator, and X. Creating Fake images by the Generator Model as similar as the real ones. So the optimal state of D will be P(x)=0.5. 
 
